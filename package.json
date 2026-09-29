@@ -1,0 +1,27 @@
+{
+  "name": "gym-network",
+  "version": "1.0.0",
+  "description": "Gym networking application",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run serve",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aesopwv/gym-network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aesopwv/gym-network/issues"
+  },
+  "homepage": "https://github.com/aesopwv/gym-network#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.4"
+  }
+}
